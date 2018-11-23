@@ -1,0 +1,29 @@
+@import 'normalize-scss';
+@include normalize();
+
+.App {
+  header {
+    font-size: 64px;
+    text-align: center;
+  }
+  svg {
+    display: block;
+    background-color: #aaa;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+
+    .eye1 {
+      fill: white;
+      stroke: black;
+      stroke-width: 3px;
+    }
+    .eye2 {
+      stroke: black;
+      stroke-width: 1px;
+    }
+    .eye3 {
+      fill: black;
+    }
+  }
+}
