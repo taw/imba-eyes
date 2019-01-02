@@ -1,17 +1,21 @@
 @import 'normalize-scss';
 @include normalize();
 
+body {
+  overflow: hidden;
+}
+
 .App {
-  header {
-    font-size: 64px;
-    text-align: center;
-  }
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
   svg {
+    width: 100vw;
+    height: 100vh;
+
     display: block;
     background-color: #aaa;
-    width: 600px;
-    height: 600px;
-    margin: auto;
 
     .eye1 {
       fill: white;
