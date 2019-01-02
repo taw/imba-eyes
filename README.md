@@ -1,6 +1,6 @@
 # imba-eyes
 
-Imbe Eyes.
+Imba Eyes. [You can see in in action here](https://taw.github.io/imba-eyes).
 
 ## Install dependencies
 
