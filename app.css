@@ -402,22 +402,24 @@ template {
 [hidden] {
   display: none; }
 
-.App header {
-  font-size: 64px;
-  text-align: center; }
+body {
+  overflow: hidden; }
 
-.App svg {
-  display: block;
-  background-color: #aaa;
-  width: 600px;
-  height: 600px;
-  margin: auto; }
-  .App svg .eye1 {
-    fill: white;
-    stroke: black;
-    stroke-width: 3px; }
-  .App svg .eye2 {
-    stroke: black;
-    stroke-width: 1px; }
-  .App svg .eye3 {
-    fill: black; }
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+  .App svg {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: #aaa; }
+    .App svg .eye1 {
+      fill: white;
+      stroke: black;
+      stroke-width: 3px; }
+    .App svg .eye2 {
+      stroke: black;
+      stroke-width: 1px; }
+    .App svg .eye3 {
+      fill: black; }
