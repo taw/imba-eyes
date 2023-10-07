@@ -24,7 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "css-loader": "^5.2.7",
-    "cypress": "^12.1.0",
+    "cypress": "^13.3.0",
     "gh-pages": "^4.0.0",
     "imba": "1.5.2",
     "mini-css-extract-plugin": "^1.6.2",
